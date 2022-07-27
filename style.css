@@ -9,3 +9,23 @@
   .image-overly{
     background-color: black;
   }
+  /* Courses section responsive for mobile */
+@media screen and (max-width:576px) {
+    .courses{
+        display: flex;
+        flex-direction: column;
+    }
+    .courses .courses-banner{
+        width: 100%;
+        
+    }
+    .course-info{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1400px) {
+    .courses .courses-banner{
+        width: 35%;
+    }
+
+}
